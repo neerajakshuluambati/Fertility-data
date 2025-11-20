@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root {
+height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+/* Small helper for card shadows */
+.card-shadow {
+box-shadow: 0 6px 18px rgba(38, 41, 47, 0.06);
+}
